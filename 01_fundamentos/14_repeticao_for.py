@@ -1,13 +1,18 @@
 
-# Introdução a for 
+# Introdução a for/while
 # Estrutura de repetição
 
-# print(0)
-# print(1)
-# print(2)
-# print(3)
-# print(4)
-# print()
+"""
+for -> Quando eu sei a quantidade 
+de vezes que preciso repetir
+"""
 
-for repetir in range(5):
-    print(repetir)
+for i in range(11):
+    print(i)
+
+"""
+while -> Qaundo eu nao sei a quantidade
+de vezes que preciso executar, 
+vai depender de uma condição
+"""
+
