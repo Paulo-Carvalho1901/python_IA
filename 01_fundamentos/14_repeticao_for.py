@@ -16,7 +16,16 @@ de vezes que preciso executar,
 vai depender de uma condição
 """
 
-i = 0
-while i <= 20:
-    print(i)
-    i += 1
+# i = 0
+# while i <= 20:
+#     print(i)
+#     i += 1
+
+
+senha = ''
+cont = 0
+while senha != '123':
+    senha = input('Qual é a senha do sistema? ')
+    cont += 1
+print(f'Voce digitou {cont}')
+print('Acesso liberado.')
